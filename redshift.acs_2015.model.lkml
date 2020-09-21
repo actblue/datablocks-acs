@@ -1,3 +1,3 @@
-connection: "redshift-datablocks"
+connection: "analytics_db"
 
 include: "redshift.explore"
