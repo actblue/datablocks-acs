@@ -3,6 +3,8 @@ include: "redshift.*.view.lkml"
 explore: fast_facts {
   from: rs_logrecno_bg_map
 
+  group_label: "Public: Census Data"
+
   join: block_group_facts {
     from: rs_block_group_facts
     view_label: "Fast Facts"
