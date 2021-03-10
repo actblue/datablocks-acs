@@ -4,7 +4,7 @@ explore: fast_facts {
   label: "Census Data"
   from: rs_logrecno_bg_map
 
-  group_label: "External Data"
+  group_label: "Other External Data"
 
   join: block_group_facts {
     from: rs_block_group_facts
